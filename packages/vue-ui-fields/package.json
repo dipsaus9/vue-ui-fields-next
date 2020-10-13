@@ -1,6 +1,6 @@
 {
 	"name": "vue-ui-fields",
-	"version": "5.0.1-alpha.0",
+	"version": "5.0.1-alpha.1",
 	"description": "Vue form library component",
 	"main": "main.js",
 	"author": "dipsaus9",
@@ -16,5 +16,5 @@
 		"lib",
 		"types"
 	],
-	"gitHead": "bffd82ee68891cda2f888262148d66102234d3e2"
+	"gitHead": "9d80e2a4c1910a86b9b5089c2bfdacc7542b3a01"
 }
