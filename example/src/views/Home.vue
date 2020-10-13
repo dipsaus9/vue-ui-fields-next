@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <Form />
-  </div>
+	<div class="home">
+		<Form />
+	</div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import Form from "@/components/Form.vue";
+import { defineComponent } from 'vue';
+import Form from '@/components/Form.vue';
 
 export default defineComponent({
-  name: "Home",
-  components: {
-    Form
-  }
+	name: 'Home',
+	components: {
+		Form
+	}
 });
 </script>

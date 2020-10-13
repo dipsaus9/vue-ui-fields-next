@@ -3,10 +3,17 @@
 	"version": "5.0.0",
 	"description": "Vue form library component",
 	"main": "main.js",
-	"repository": "httsp://github.com/dipsaus9/vue-ui-fields",
 	"author": "dipsaus9",
 	"license": "MIT",
 	"publishConfig": {
 		"access": "restricted"
-	}
+	},
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib",
+		"types"
+	]
 }

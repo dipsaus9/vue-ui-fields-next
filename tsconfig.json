@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2018",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -13,14 +13,31 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": ".",
     "resolveJsonModule": true,
     "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+			"esnext",
+			"esnext.asynciterable",
+			"dom"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"~/*": [
+				"./example/src/*"
+			],
+			"@/*": [
+				"./example/src/*"
+			],
+			"~~/*": [
+				"./*"
+			],
+			"@@/*": [
+				"./*"
+			],
+			"types": [
+				"@types/node",
+				"@types/jest"
+			]
+		},
   },
   "include": [
     "./example/src/**/*.ts",

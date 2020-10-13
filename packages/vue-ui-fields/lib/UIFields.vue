@@ -32,7 +32,7 @@ export default {
 			}
 			return computed({
 				get: () => uiFields.get(name),
-				set: setValue(name, hooks),
+				set: setValue(name, hooks)
 			});
 		};
 
@@ -43,6 +43,6 @@ export default {
 
 		provide('getUIFieldsValues', getValues);
 		provide('UIFieldsValue', computedValue);
-	},
+	}
 };
 </script>
